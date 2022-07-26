@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+     --font-family: 'Poppins', sans-serif;
+     --color-blanco: #fff;
+     --color-negro: #000;    
+     --color-azul: #007FEF;
+}
+
+html{
+     box-sizing: border-box;
+}
+
+*,
+*::after
+*::before{
+     box-sizing: inherit;
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     font-family: var(--font-family);
+     margin: 0;
+}
+
+inpuct,button,textarea {
+     font-family: inherit;
+}
+
+.header {
+}
+
+.navbar {
+     display: flex;
+     justify-content: space-between;
+     padding: 2rem 0;
+     align-items: center;
+}
+
+.navbar-logo {
+     font-weight: 700;
+     font-size: 34px;
+}
+
+.navbar-nav {
+     display: flex;
+     list-style: none;
+     gap: 80px;
+}
+
+.navbar-nav li a {
+     text-decoration: none;
+     color: var(--color-negro);
+}
+
+.navbar-nav li a:hover {
+     color: var(--color-azul);
+     text-decoration: underline;
+}
+
+.info {
+     text-decoration: underline;
+}
+
+.container {
+     max-width: 1040px;
+     width: 95%;
+     margin: 0 auto;
+}
+
+.presentation {
+     margin-top: 73px;
+}
+
+.presentation-name,
+.presentation-info{
+     font-size: 32px;
+     font-weight: 500;
+     letter-spacing: -0.02em;
+     margin: 0;
+}
+
+.presentation-name span {
+     font-weight: 500;
+     color: var(--color-azul);
+}
+
+.text-up {
+     width: 507px;
+     height: 112px;
+     font-style: normal;
+     font-size: 20px;
+     font-weight: 400;
+     margin-top: 40px;
+}
+
+.text-down {
+     width: 509px;
+     height: 224px;
+     font-style: normal;
+     font-size: 20px;
+     font-weight: 400;
+     margin-top: 40px;
+}
+
+.container-img {
+     max-width: 100%;
+     width: 333px;
+     height: 474.75px;
+     float: right;
+     margin-right: 50px;
+     box-shadow: 30px -30px 0px 0px #8AC8FF, 60px -60px #A6D5FF;
+}
+
+.btn-resume {
+     background-color: var(--color-negro);
+     color: var(--color-blanco);
+     border: none;
+     font-size: 20px;
+     padding: 16px 32px;
+     border-radius: 60px;
+     margin-top: 40px;
+}
+
+.btn-resume:hover {
+     background-color: var(--color-azul);
+}
+
+.footer {
+     margin-top: 223px;
+     padding: 80px 56px;
+     background-color: var(--color-negro);
+     color: var(--color-blanco);
+}
+
+.container-footer {
+     padding: 80px 56px;
+}
+
+.footer p {
+     font-size: 36px;
+     font-weight: 400;
+     margin-bottom: 24px;
+}
+
+.footer h5 {
+     font-weight: 600;
+     margin-bottom: 40px;
+     font-size: 40px;
+}
+
+.footer ul {
+     list-style: none;
+     display: flex;
+     gap: 2rem;
+     color: var(--color-blanco);
+     font-size: 20px;
+     padding-left: 0;
+}

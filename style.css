@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+     --font-family: 'Poppins', sans-serif;
+     --color-blanco: #fff;
+     --color-negro: #000;    
+     --color-azul: #007FEF;
+}
+
+html{
+     box-sizing: border-box;
+}
+
+*,
+*::after
+*::before{
+     box-sizing: inherit;
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     font-family: var(--font-family);
+     margin: 0;
+}
+
+inpuct,button,textarea {
+     font-family: inherit;
+}
+
+.container {
+     max-width: 1040px;
+     width: 95%;
+     margin: 0 auto;
+}
+
+.header {
+}
+
+.navbar {
+     display: flex;
+     justify-content: space-between;
+     padding: 2rem 0;
+     align-items: center;
+}
+
+.navbar-logo {
+     font-weight: 700;
+     font-size: 34px;
+}
+
+.navbar-nav {
+     display: flex;
+     list-style: none;
+     gap: 80px;
+}
+
+.navbar-nav li a {
+     text-decoration: none;
+     color: var(--color-negro);
+}
+
+.navbar-nav li a:hover {
+     color: var(--color-azul);
+     text-decoration: underline;
+}
+
+.index {
+     text-decoration-line: underline;
+}
+
+.presentation {
+     margin-top: 73px;
+}
+
+.presentation-info-name,
+.presentation-info-profession {
+     font-size: 48px;
+     font-weight: 400;
+     letter-spacing: -0.02em;
+     margin: 0;
+}
+
+.presentation-info-profession span {
+     font-weight: 700;
+     color: var(--color-azul);
+}
+
+.presentation-activity {
+     font-size: 24px;
+     margin-bottom: 40px;
+}
+
+.presentation-activity span {
+     font-weight: 700;
+}
+
+.btn-resume {
+     background-color: var(--color-negro);
+     color: var(--color-blanco);
+     border: none;
+     font-size: 20px;
+     padding: 16px 32px;
+     border-radius: 60px;
+}
+
+.btn-resume:hover {
+     background-color: var(--color-azul);
+}
+
+.main{
+     margin-top: 10px;
+}
+
+.project {
+     border-top: 1px solid var(--color-negro);
+     padding: 60px 0px;
+     margin-top: 160px;
+}
+
+.project_title {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 30px;
+}
+
+.project_title h3 {
+     font-size: 20px;
+     font-weight: 600;
+}
+
+.project_title h3 span {
+     display: block;
+     font-weight: 400;
+     font-size: 24px;
+}
+
+.project_title span {
+     font-size: 3rem;
+}
+
+.project-img {
+     width: 100%;
+}
+
+.project-img img {
+     width: 100%;
+}
+
+/**footer**/
+.footer {
+     padding: 80px 56px;
+     background-color: var(--color-negro);
+     color: var(--color-blanco);
+}
+
+.container-footer {
+     padding: 80px 56px;
+}
+
+.footer p {
+     font-size: 36px;
+     font-weight: 400;
+     margin-bottom: 24px;
+}
+
+.footer h5 {
+     font-weight: 600;
+     margin-bottom: 40px;
+     font-size: 40px;
+}
+
+.footer ul {
+     list-style: none;
+     display: flex;
+     gap: 2rem;
+     color: var(--color-blanco);
+     font-size: 20px;
+     padding-left: 0;
+}
+
+/**pag-resume**/
+
+.resume {
+     text-decoration: underline;
+}
+
+.container-section {
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+} 
+
+.header-main {
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 56px;
+     align-items: center;
+}
+
+.main-section{
+     display: flex;
+     gap: 136px;
+} 
+
+.container-div {
+     border-top: 1px solid rgba(0, 0, 0, 0.342);
+     width: 100%;
+}
+
+.section-title {
+     min-width: 106px;
+     font-weight: 700;
+}
+
+.section-job {
+     font-weight: 700;
+}
+
+.btn-pdf {
+     padding: 20px 35px;
+     text-decoration: none;
+}
+
+.container-div span {
+     margin-left: 64%;
+}
+
+.title-span span {
+     margin-left: 73%;
+}
+
+.section-sub-job {
+     font-weight: 600;
+     font-size: 16px;
+}
+
+.email {
+     text-decoration: underline;
+     margin-bottom: 192px;
+}
